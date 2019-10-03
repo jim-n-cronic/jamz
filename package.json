@@ -1,0 +1,25 @@
+{
+  "name": "jamz",
+  "version": "1.0.0",
+  "description": "music-socialNetwork App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jim-n-cronic/jamz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jim-n-cronic/jamz/issues"
+  },
+  "homepage": "https://github.com/jim-n-cronic/jamz#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.17.1"
+  }
+}
