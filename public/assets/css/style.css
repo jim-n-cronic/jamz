@@ -1,0 +1,268 @@
+body{
+    background-color:#2e3d41;
+}.container{
+    width:100vw;
+    height:100vh;
+    overflow:auto;
+    background-color:#2e3d41;
+}
+.navbar{
+    background-color: black;
+}
+.jumbotron{
+ background-color:#1da1f2;
+ height:35px;
+ border-color: deepskyblue;
+}
+
+.innerNav{
+    width:1024px;
+    height:40px;
+    margin: 0px auto 0px auto;
+    overflow: hidden;
+}
+
+.mainbody1{
+    width:1024px;
+    margin: 10px auto 10px auto;
+    height:auto;
+    overflow:hidden;
+    
+}
+.mainbody2{
+    width:1024px;
+    margin: 10px auto 10px auto;
+    height:800px;
+    overflow:hidden;
+    
+}
+#user{
+    color:whitesmoke;
+    width:23%;
+    float: left;
+    height:250px;
+    overflow:hidden;
+    background-color: #2e3d41;
+    border-style: solid;
+    border-width: 2px;
+    border-color:#1cb955;
+}
+
+#hashtags{
+    color:whitesmoke;
+    width:23%;
+    float: right;
+    height:300px;
+    overflow:hidden;
+    background-color: #2e3d41;
+    border-style: solid;
+    border-width: 2px;
+    border-color:#1cb955;
+}
+#music-cubes{
+    width:95%;
+    margin-left:2%;
+    margin-top: 2%;
+    margin-bottom:2%;
+    margin-right:2%;
+    float: left;
+    height:95%;
+    overflow:auto;
+    background-color: #2e3d41;
+    border-style: solid;
+    border-width: 2px;
+    border-color:#1cb955;
+}
+#tweets-area{
+    width:50%;
+    margin-left:2%;
+    float: left;
+    height:300px;
+    overflow:hidden;
+    background-color: #2e3d41;
+    border-style: solid;
+    border-width: 2px;
+    border-color:#1cb955;
+}
+
+
+/* ============USER INFO=============== */
+.userBox{
+    height:225px;
+    width:auto;
+    position:relative;
+    overflow: hidden;
+}
+.banner{
+    background-image: url("https://images.unsplash.com/photo-1499415479124-43c32433a620?ixlib=rb-1.2.1&w=1000&q=80");
+    background-size: 100% 99%;
+    background-repeat: no-repeat;
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    height:45%;
+    z-index:1;
+}
+.userInfo{
+    height:70%;
+    position: absolute;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    z-index:1000;
+}
+.userPic{
+    height:50%;
+    display:block;
+    width:auto;
+}
+.picture{
+    background-image: url("https://www.brandcrowd.com/gallery/brands/pictures/picture15540681577672.jpg");
+    background-size: 60px 60px;
+    height: 60px;
+    width: 60px;
+    float: left;
+    border-radius: 35px;
+    margin-top:10px;
+    margin-left:10px;
+}
+.userName{
+    float:left;
+    margin-left:15px;
+    margin-top:35px;
+}
+.userName p{
+   padding:0px;
+   margin:0px;
+}
+.userTweets{
+    height:50%;
+    width:100%;
+    float:left;
+}
+.chosenName{
+    font-size: 1.0em;
+    font-weight: 800;
+}
+.chosenUserName{
+    font-size:0.8em;
+    font-weight: 200;
+}
+
+#tweets-info,#following-info,#followers-info{
+    width:33%;
+    float: left;
+    height:60px;
+    margin-top:15px
+}
+.tweets,.following,.followers{
+    font-size:0.8em;
+    font-weight: 500;
+    display:block;
+    margin-left:10%;
+}
+.tweets-count,.following-count,.followers-count{
+    font-size: 1.0em;
+    font-weight: 800;
+    display:block;
+    margin-left:15%;
+    color: #1cb955;
+}
+.userStartDate{
+    height:20%;
+    width:100%;
+}
+
+/* ====================================== */
+.input-group-prepend{
+    width: 85%;
+    margin: auto;
+    display: block;
+}
+
+.container2{
+    background-color: lightblue;
+    width:75%;
+    height:500px;
+    margin:auto;
+}
+/* ===============TWEETS-AREA===================== */
+.tweet-header{
+    font-size: 1.0em;
+    font-weight: 800;
+}
+.tweets-icon{
+    float:left;
+    color:white;
+    width:15%;
+    height:50%;
+    padding-top:15px;
+}
+.tweet-pic{
+    background-image: url("https://www.brandcrowd.com/gallery/brands/pictures/picture15540681577672.jpg");
+    background-size: 60px 60px;
+    height: 60px;
+    width: 60px;
+    float: left;
+    border-radius: 35px;
+    margin-top:10px;
+    margin-left:10px;
+}
+.tweets-input{
+    float:right;
+    color:white;
+    margin-top:10px;
+    width:82%;
+    height:25%;
+    margin-bottom:5px;
+}
+.input-group{
+    float:left;
+}
+.input-group-text{
+    color:#1cb955;
+}
+.tweets-button{
+    float:right;
+    color:white;
+    margin-top:10px;
+    width:82%;
+    height:25%;
+}
+.tweets-tweets{
+    float:left;
+    color:white;
+    width:100%;
+    height:41%;
+}
+/* ===================WORLDWIDE TRENDS============ */
+
+.rutgers-trending,.bootcamp-trending{
+    width:33%;
+    float: left;
+    height:60px;
+    margin-top:15px
+}
+.worldwide-trends{
+    font-size:1.2.0em;
+    font-weight: 600;
+    display:block;
+    margin-left:5%;
+    margin-top:5%;
+}
+.rutgers-hashtag,.goHome-hashtag,.home-hashtag,.sleepy-hashtag,.hungry-hashtag{
+    font-size:1.0em;
+    font-weight: 500;
+    display:block;
+    margin-left:5%;
+    color: #1cb955;
+}
+.rutgers-tweets,.goHome-tweets,.home-tweets,.sleepy-tweets,.hungry-tweets{
+    font-size: 0.8em;
+    font-weight: 500;
+    display:block;
+    margin-left:10%;
+}
+
+
