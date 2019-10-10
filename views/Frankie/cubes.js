@@ -4,9 +4,16 @@ var boxes = [];
 var midTwn;
 var attractor;
 var shdr;
+var images = [];
+var processedImages = [];
 
 function preload() {
   midTwn = loadImage("https://upload.wikimedia.org/wikipedia/en/0/01/Midtown_120_Blues.jpg");
+  for(var i;i<images.length;i++){
+    var newPic = loadImage(images[i]);
+    processedImages.push(newPic);
+  }
+
   // shdr = loadShader("./shader.vert","./shader.frag");
 }
 
@@ -73,6 +80,7 @@ class textBox {
   rot;
   accel;
   noise_num;
+  txtNum;
 
 
   constructor() {
@@ -83,6 +91,7 @@ class textBox {
     this.Yrot = 0;
     this.Zrot = 0;
     this.mass = 10;
+    this.txtNum = Math.floor(Math.random() * processedImages.length);
     this.noise_num = (Math.random() * 50) - 25;
     if ((Math.random() * 75) > 25) {
       this.rotX = true;
@@ -112,7 +121,7 @@ class textBox {
     rotateY(this.Yrot);
     noStroke();
     // fill(this.color);
-    texture(midTwn);
+    texture(processedImages[txtNum]);
     box(this.size);
     pop();
     // resetMatrix();
