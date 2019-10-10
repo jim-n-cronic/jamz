@@ -9,6 +9,6 @@ module.exports = (app) => {
     */
     app.get("/", (req,resp) => {
         // console.log(path.join(__dirname, '../views'))
-        resp.render(path.join(__dirname, "../views/index"));
+        resp.sendFile(path.join(__dirname, "../views/index.html"));
     });
 }
